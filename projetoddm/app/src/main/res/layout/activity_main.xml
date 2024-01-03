@@ -33,7 +33,7 @@
         app:layout_constraintHorizontal_bias="0.582"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.178" />
+        app:layout_constraintVertical_bias="0.17" />
 
     <View
         android:id="@+id/line6"
@@ -42,10 +42,10 @@
         android:background="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintHorizontal_bias="0.610"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.205" />
+        app:layout_constraintVertical_bias="0.198" />
 
     <View
         android:id="@+id/line5"
@@ -55,10 +55,10 @@
         android:rotation="-90"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintHorizontal_bias="0.610"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.205" />
+        app:layout_constraintVertical_bias="0.198" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -133,7 +133,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/download_1"
-        tools:layout_editor_absoluteX="298dp"
-        tools:layout_editor_absoluteY="98dp" />
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="387dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="253dp">
+
+    </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

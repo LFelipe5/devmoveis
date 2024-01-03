@@ -13,6 +13,22 @@
         android:theme="@style/Theme.Projetoddm"
         tools:targetApi="31">
         <activity
+            android:name=".Activity_display"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="Activity_display" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity_list"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="Activity_list" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
